@@ -50,7 +50,7 @@ namespace MCCPlugins
 					0, DateTime.Now.AddSeconds(5));
 			}
 
-			async void ConnectivityChanged(object sender, ConnectivityChangedEventArgs e)
+			void ConnectivityChanged(object sender, ConnectivityChangedEventArgs e)
 			{
 				// LOOK:2. Set the button's IsEnabled property when connectivity changes
 				button.IsEnabled = e.IsConnected;
@@ -58,4 +58,3 @@ namespace MCCPlugins
 		}
 	}
 }
-

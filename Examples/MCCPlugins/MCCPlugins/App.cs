@@ -43,6 +43,7 @@ namespace MCCPlugins
 
 			void Button_Clicked(object sender, EventArgs e)
 			{
+				// LOOK:3. Show a native device notification when tapped
 				CrossLocalNotifications.Current.Show(
 					"MCC Plugins",
 					"You tapped the button",
@@ -51,8 +52,8 @@ namespace MCCPlugins
 
 			async void ConnectivityChanged(object sender, ConnectivityChangedEventArgs e)
 			{
+				// LOOK:2. Set the button's IsEnabled property when connectivity changes
 				button.IsEnabled = e.IsConnected;
-				var connectedMsg = e.IsConnected ? "online" : "offline";
 			}
 		}
 	}

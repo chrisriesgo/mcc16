@@ -16,4 +16,4 @@ Explore the `BaitAndSwitch_Plugin` directory to review information concerning pl
 
 > _Note - these plugins aren't published on NuGet._ 
 
-- **Plugin.FeatureTracking** - source code for my _Plugin.FeatureTracking_ plugin that was created using the bait-and-switch approach.
+- **Plugin.FeatureTracking** - source code for my _Plugin.FeatureTracking_ plugin that was created using the bait-and-switch approach. This plugin now lives in its own [/FeatureTrackingPlugin](https://github.com/chrisriesgo/FeatureTrackingPlugin) repository.
